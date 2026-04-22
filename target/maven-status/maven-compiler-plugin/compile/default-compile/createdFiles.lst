@@ -1,0 +1,7 @@
+com\nttdata\quarkus\dto\CustomerResponse.class
+com\nttdata\quarkus\controller\CustomerController.class
+com\nttdata\quarkus\entity\Customer$CustomerBuilder.class
+com\nttdata\quarkus\repository\CustomerRepository.class
+com\nttdata\quarkus\entity\Customer.class
+com\nttdata\quarkus\service\CustomerService.class
+com\nttdata\quarkus\dto\CustomerRequest.class
