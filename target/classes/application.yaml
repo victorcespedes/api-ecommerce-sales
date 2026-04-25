@@ -10,3 +10,12 @@ quarkus:
     jdbc:
       url: jdbc:h2:mem:ecommerce
       max-size: 25
+  rest-client:
+    api-products:
+      url: https://fakestoreapi.com
+      scope: jakarta.inject.Singleton
+      tls-configuration-name: tls-disabled
+  tls:
+    tls-disabled:
+      trust-all: true
+      hostname-verification-algorithm: NONE
