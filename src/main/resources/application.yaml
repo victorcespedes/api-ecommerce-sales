@@ -1,3 +1,8 @@
+application:
+  kafka-values:
+    server: PLAINTEXT://localhost:19092
+    schema: http://localhost:8081
+    topic: venta-topic
 quarkus:
   http:
     port: 8010

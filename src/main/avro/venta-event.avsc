@@ -1,0 +1,28 @@
+{
+  "name": "VentaEvent",
+  "namespace": "com.nttdata.quarkus.avro",
+  "doc": "Venta de los productos",
+  "type": "record",
+  "fields": [
+    {
+      "name": "saleId",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "costumerId",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "productId",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "status",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}
